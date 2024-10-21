@@ -1,0 +1,37 @@
+@media screen  and (max-width:640px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .review-content{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .review-image{
+        width: 100%;
+    }
+
+    .review-image-content{
+        width: 60%;
+    }
+}
+
+@media screen  and (min-width:640.01px) and (max-width:1280px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .review-content{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .review-image{
+        width: 100%;
+    }
+
+    .review-image-content{
+        width: 40%;
+    }
+}

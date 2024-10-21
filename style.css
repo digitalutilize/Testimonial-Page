@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Sora", sans-serif;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    background-color: #FAFAF9;
+    display: flex;
+    padding: 120px 80px;
+    
+}
+
+.review-content{
+    width: 50%;
+}
+
+.review-content h2{
+    font-size: 36px;
+    margin: 5px 0px;
+}
+
+.review-content p{
+    font-size: 20px;
+    color: #52525A;
+    margin: 10px 0 20px;
+    width: 90%;
+    line-height: 40px;
+}
+
+.review-content ul li{
+    font-size: 14px;
+    color: #52525A;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Image section Styles */
+
+.review-image{
+    width: 50%;
+    
+}
+
+.review-image-content{
+    background-color: white;
+    box-shadow: 0px 0px 2px 1px #dbdbdb;
+    padding: 20px 40px;
+    border-radius: 10px;
+    height: fit-content;
+    width: 40%;
+    margin: auto;
+}
+
+.samantha{
+    margin-bottom: 30px;
+    margin-right: 0px;
+}
+
+.rachel{
+    margin-left: 0px;
+}
+
+
+.logo{
+    width: 70px;
+}
+
+.review-image-content h4{
+    font-size: 16px;
+    margin: 20px 0px;
+}
+
+.review-image-content p{
+    font-size: 16px;
+    color: #52525A;
+    width: 90%;
+}
